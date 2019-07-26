@@ -1,0 +1,16 @@
+{
+    "name": "sahahov/composer-editor-ex",
+    "description": "test editor",
+    "type": "library",
+    "require": {
+        "php": "^7.0"
+    },
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Alexandr Glukhov",
+            "email": "agluhov@demis.ru"
+        }
+    ],
+    "minimum-stability": "stable"
+}
