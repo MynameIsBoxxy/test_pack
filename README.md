@@ -1,1 +1,1 @@
-"# test_pack" 
+"# test_pack для теста" 
