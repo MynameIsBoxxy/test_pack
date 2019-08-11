@@ -13,5 +13,10 @@
             "email": "agluhov@demis.ru"
         }
     ],
+    "autoload": {
+        "psr-4": {
+            "agluhov\\testcode\\": "src/"
+        }
+    },
     "minimum-stability": "stable"
 }
