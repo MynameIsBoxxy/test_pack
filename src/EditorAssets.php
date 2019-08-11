@@ -6,12 +6,8 @@ use yii\web\AssetBundle;
 
 class EditorAssets extends AssetBundle {
 
-    public $basePath = '@webroot';
-    public $sourcePath = '/basic/vendor/froala/wysiwyg-editor/';
-    
-
-    public $baseUrl = '@web';
-    public $css = ['css/froala_editor.pkgd.min.css'];
+    public $sourcePath = '@app/vendor/froala/wysiwyg-editor/';
+    public $css = ['css/froala_editor.pkgd.min.css','css/themes/gray.min.css','css/themes/dark.min.css'];
     public $js = ['js/froala_editor.pkgd.min.js'];
     public $depends = [
     ];
